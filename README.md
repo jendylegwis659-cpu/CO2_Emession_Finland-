@@ -1,8 +1,9 @@
 # CO2_Emession_Finland-
 CO2 Emissions Analysis: Finland (2010-2025)
 
-Student:JENDY LEGWIS #=
-Country / ISO-3: Finland / FIN
+Student:JENDY LEGWIS
+
+Country /Finland
 Study period: 2010-2025
 Software: R and RStudio
 Data source: Our World in Data (OWID), based on the Global Carbon Project’s Global Carbon Budget
