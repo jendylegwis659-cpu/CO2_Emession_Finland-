@@ -52,3 +52,44 @@ source("scripts/analyze_co2.R")
 5. Results
 
 The exact numerical results are generated from the current OWID dataset when scripts/analyze_co2.R is run. The script writes the complete statistical table to results/summary_statistics.csv and a readable summary to results/interpretation.txt. Insert the generated values into the table below before submitting the paper.
+
+
+Figures
+
+Figure 1. Annual CO2 emissions in Finland (2010-2025).
+Generated as figures/figure1_annual_co2.png.
+
+Figure 2. CO2 emissions per capita in Finland (2010-2025).
+Generated as figures/figure2_co2_per_capita.png.
+
+Figure 3. Annual percentage change in CO2 emissions in Finland (2010-2025).
+Generated as figures/figure3_annual_percentage_change.png.
+
+6. Interpretation and Discussion
+
+The analysis should be interpreted by considering both the direction of the long-term trend and the year-to-year fluctuations. The first- and last-year values and the overall percentage change describe the net change across the study period. The peak and minimum values identify the years with the highest and lowest recorded emissions in the selected interval. Per-capita emissions provide additional context by expressing emissions relative to population size.
+
+The annual percentage-change graph identifies years in which emissions increased or decreased compared with the preceding year. A negative value represents a year-on-year decline, while a positive value represents an increase. The exploratory regression summarizes the average linear direction of change over the period; it should not be interpreted as proof that emissions changed at a constant rate.
+
+Potential explanations such as changes in energy production, fossil-fuel use, industrial activity, weather, economic conditions, and electricity imports may be discussed as contextual factors only when supported by appropriate external references. These factors are not directly tested by the descriptive analysis and must not be presented as causal findings of this study.
+
+7. Limitations
+
+• The analysis focuses on CO2 emissions from fossil fuels and industrial processes and does not represent all greenhouse gases.
+• The selected indicator excludes land-use change and forestry emissions.
+• Territorial accounting does not include the full emissions footprint of imported goods consumed in Finland.
+• International aviation and shipping bunker emissions are not allocated to individual country totals in this indicator.
+• OWID and its underlying data providers may revise historical estimates; results can therefore differ depending on the retrieval date.
+• The 2025 value may be an estimate and should be interpreted according to the dataset’s documentation.
+• The study is descriptive. The regression identifies an association with calendar time and does not establish the causes of emissions changes.
+• The short study period contains at most 16 annual observations, which limits the strength of more complex statistical inference.
+
+8. References
+
+Our World in Data. (n.d.). Annual CO2 emissions. https://ourworldindata.org/grapher/annual-co2-emissions-per-country
+
+Our World in Data. (n.d.). CO2 emissions per capita. https://ourworldindata.org/grapher/co-emissions-per-capita
+
+Our World in Data. (n.d.). CO2 and greenhouse gas emissions dataset. https://github.com/owid/co2-data
+
+Global Carbon Project. (n.d.). Global Carbon Budget. https://globalcarbonbudget.org/
