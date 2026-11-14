@@ -53,7 +53,7 @@ source("scripts/analyze_co2.R")
 5. Results
 
 The exact numerical results are generated from the current OWID dataset when scripts/analyze_co2.R is run. The script writes the complete statistical table to results/summary_statistics.csv and a readable summary to results/interpretation.txt. Insert the generated values into the table below before submitting the paper.
-
+f0910087-3cd5-49a7-8f15-2a64c19e004d.jpg
 
 Figures
 
